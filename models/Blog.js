@@ -24,4 +24,4 @@ Blog.init(
   }
 );
 
-module.exports = Gallery;
+module.exports = Blog;
