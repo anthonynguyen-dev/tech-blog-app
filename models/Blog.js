@@ -5,13 +5,11 @@ class Blog extends Model {}
 
 Blog.init(
   {
-    id: {
-      type: DataTypes.INTERGER,
+    title: {
+      type: DataTypes.STRING,
       allowNull: false,
-      primaryKey: true,
-      autoIncrement: true,
     },
-    name: {
+    content: {
       type: DataTypes.STRING,
       allowNull: false,
     },
